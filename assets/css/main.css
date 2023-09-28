@@ -913,6 +913,13 @@ text-transform: uppercase;
    #pricing {
   text-align: center;
   font-size: 46px;
+ 
+} 
+
+.pricing-background{
+  background-image: url("./img/fondosuscripcion.png");
+  width: 100vw;
+  height: 1150px;
 }
 
 #pricing .title {
@@ -931,6 +938,9 @@ text-transform: uppercase;
   color: #333;
 }
 
+.img-box{
+  padding-right: 30px;
+}
 #pricing .table {
   margin-top: 15px;
   padding: 30px;
