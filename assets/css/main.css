@@ -655,7 +655,7 @@ hr {
 }
 
 .navbar li.active a.nav-link {
-  color: #preset;
+  color: #ffffff;
 }
 
 .dropdown-toggle::after {
@@ -1302,7 +1302,7 @@ textarea {
 
 /*cta
 */
-#cta{background: ;}
+#cta{background: #ff0000;}
 
 /* Footer Area Start */
 .footer-area {
