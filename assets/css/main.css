@@ -42,8 +42,8 @@ a a:focus {
 }
 
 p {
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -127,10 +127,14 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  background-color: #F63854;
+  background-color: #1FC8FE;
   position: relative;
   z-index: 1;
   text-transform: uppercase;
+  color: #2E2E2E; /* Cambia este color al que desees */
+  font-size: 14px; /* Cambia el tamaño de fuente al que desees */
+  font-family: 'Raleway', sans-serif; /* Cambia 'Tu-Fuente' a la fuente que desees */
+  font-weight: 700; /* Cambia el peso de fuente al que desees */
 }
 
 .btn-common:hover {
@@ -571,7 +575,7 @@ hr {
 }
 
 .menu-bg {
-  background: transparent;
+  background: #ffffff;
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
@@ -791,7 +795,7 @@ hr {
   margin-right: 10px;
 }
 
-.sloder-img {
+.slider-img {
   background: #34363a;
 }
 
@@ -892,9 +896,10 @@ hr {
 /* ==========================================================================
    Pricing Table Style
    ========================================================================== */
-#pricing {
+
+   #pricing {
   text-align: center;
-  font-size: 46px
+  font-size: 46px;
 }
 
 #pricing .title {
