@@ -97,7 +97,7 @@
   }
 }
 
-/* mobile or only mobile */
+/* MOBILE */
 @media (max-width: 767px) {
   .section-padding {
     padding: 60px 0;

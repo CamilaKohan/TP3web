@@ -7,7 +7,7 @@ body {
   background: #ffffff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -746,8 +746,8 @@ hr {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
+
 #hero-area {
-  background-image: url(../img/hero-area.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -757,17 +757,34 @@ hr {
   padding: 180px 0 80px;
 }
 
+#hero-area::before {
+  content: "";
+  background-color: #2E2E2E; /* Cambia "tu-color-aqui" al color que desees */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 #hero-area .contents .head-title {
-  color: #222222;
-  font-size: 42px;
+  color: #ffffff;
+  font-size: 65px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 80px; /* Aumenta el interlineado */
   margin-bottom: 10px;
+  /* Añade un máximo de 2 líneas y recorta el texto que no cabe */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Número máximo de líneas */
+  -webkit-box-orient: vertical;
 }
 
 #hero-area .contents .header-button {
   margin-top: 20px;
-  color: #222222;
+  color: #ffffff;
 }
 
 #hero-area .contents .header-button .btn {
@@ -877,16 +894,17 @@ hr {
    ========================================================================== */
 #pricing {
   text-align: center;
+  font-size: 46px
 }
 
 #pricing .title {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 #pricing .title h3 {
-  text-transform: uppercase;
-  color: #333;
-  font-size: 18px;
+  text-transform: lowercase;
+  color: #ED1676;
+  font-size: 35px;
 }
 
 #pricing .title .month-plan {
