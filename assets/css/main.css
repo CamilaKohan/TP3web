@@ -799,10 +799,15 @@ hr {
 #hero-area .contents .header-button .btn {
   margin-right: 10px;
 }
+.contents p{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
 
 .slider-img {
   background: #34363a;
 }
+
 
 /* Team Item */
 .team-item:hover {
