@@ -467,6 +467,9 @@ hr {
   text-transform: lowercase;
   font-weight: 570;
 }
+.services-item .services-content h3:first-letter {
+text-transform: uppercase;
+}
 
 .services-item .services-content h3 a:hover {
   color: #1FC8FE;
@@ -1042,7 +1045,7 @@ hr {
 
 .testimonial {
   position: relative;
-  background-color: #F63854;
+  background-color: #ED1676;
 }
 
 .testimonial-item {
@@ -1074,7 +1077,7 @@ hr {
 }
 
 .testimonial-item .content .star-icon i {
-  color: #F63854;
+  color: #FE803A;
 }
 
 .testimonial-item .info h2 {
@@ -1307,7 +1310,20 @@ textarea {
 
 /*cta
 */
-#cta{background: #ff0000;}
+#cta{background: #ED1676;}
+.cta1{
+  background: #2E2E2E;
+}
+.cta-text1 h4{
+  text-align: center;
+  text-transform: uppercase;
+  color:  #ED1676 !important;
+  font-size: 42px;
+}
+
+.cta-text2 h4{
+  color:  #ffffff !important;
+}
 
 /* Footer Area Start */
 .footer-area {
