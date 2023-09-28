@@ -420,12 +420,12 @@ hr {
 }
 
 /* Services Item */
+/* Elimina los estilos de los contenedores y la sombra */
 .services-item {
-  padding: 20px;
-  border-radius: 4px;
+  padding: 0; /* Elimina el relleno */
+  border: none; /* Elimina el borde */
   text-align: center;
   margin: 15px 0;
-  box-shadow: 0 0 12px #F4F4F4;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -433,7 +433,6 @@ hr {
 }
 
 .services-item .icon {
-  border: 1px solid #f1f1f1;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -463,15 +462,20 @@ hr {
 
 .services-item .services-content h3 a {
   font-size: 16px;
-  color: #585b60;
+  color: #2E2E2E;
+  font-family: 'Ubuntu', serif;
+  text-transform: lowercase;
+  font-weight: 570;
 }
 
 .services-item .services-content h3 a:hover {
-  color: #F63854;
+  color: #1FC8FE;
 }
 
+/* Mantén los estilos de animación */
 .services-item:hover {
-  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  /* Puedes ajustar estos valores según tus preferencias de animación */
+  transform: scale(1.1); /* Escala al hacer hover */
 }
 
 .services-item:hover .icon {
@@ -485,6 +489,7 @@ hr {
 #service {
   position: relative;
 }
+
 
 .about-area .about-wrapper {
   height: 100%;
